@@ -3,7 +3,7 @@
 
 ## 1. Overview
 
-Ride The Bus is a card game in which the player is give choices to predict what the next card will be. The choices ranges from color, will the card be red or black. To asking if the next card will be higher or lower in rank. To asking if the next card will be inside or outside of the previous two cards played. To finally asking what the next suit will be for the last card. The player will have an amount of funds to bet with and each successful choice will multiply their bet. If they choose incorrectly, they completely lose out on their bet and the game state resets.
+Ride The Bus is a card game in which the player is given choices to predict what the next card will be. The choices ranges from color, will the card be red or black. To asking if the next card will be higher or lower in rank. To asking if the next card will be inside or outside of the previous two cards played. To finally asking what the next suit will be for the last card. The player will have an amount of funds to bet with and each successful choice will multiply their bet. If they choose incorrectly, they completely lose out on their bet and the game state resets.
 
 
 ## 2. Features
