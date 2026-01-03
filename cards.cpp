@@ -40,7 +40,7 @@ Colors getColor(const Card& card) {
 Card randomCard() {
     Card card;
     int randRank = (rand() % 14) + 1;
-    int randSuit = rand() % 4;
+    int randSuit = (rand() % 4) + 1;
 
     card.rank = randRank;
     
