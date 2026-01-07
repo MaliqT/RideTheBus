@@ -38,7 +38,7 @@ void printCard(const Card& card) {
             break;
 
         default:
-        finalString += to_string(card.rank);
+        finalString += to_string(card.rank) + " ";
     }
 
     switch (card.suit) {
@@ -82,10 +82,23 @@ vector<Card> createDeck() {
 
             card.rank = rank;
             card.color = getColor(card);
-            printCard(card);
             deck.push_back(card);
         }
     }
 
     return deck;
+}
+
+void shuffleDeck(vector<Card>& deck) {
+    static random_device rd;
+    static mt19937 gen(rd());
+    shuffle(deck.begin(), deck.end(), gen);
+
+    deck.erase(deck.begin() + 4, deck.end());
+}
+
+void printDeck(const vector<Card>& deck) {
+    for (const Card& card : deck) {
+        printCard(card);
+    }
 }
